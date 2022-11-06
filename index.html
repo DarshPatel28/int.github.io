@@ -120,7 +120,17 @@
         bottom: 0%;
         text-align: center;
             /* height: 30px; */
+            animation-name: snap;
+      animation-duration: 4s;
       }
+      @keyframes snap{
+        from {
+            transform: translatex(-300%);
+            }
+            to {
+            transform: translatex(0%);
+            }
+        }
 
 
       #preloader{
